@@ -1,0 +1,13 @@
+interface:
+  display_name: sourcing
+  short_description: 以5–6分钟为目标筛选融资Excel，同时交付AI新闻报告与具身智能融资项目汇编
+  default_prompt: 使用 $sourcing，以5–6分钟为目标处理融资Excel，交付AI公司新闻报告和《具身智能 融资项目.md》，后者按编号整理投资方、FA、业务与本轮融资
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

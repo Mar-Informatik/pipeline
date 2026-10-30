@@ -1,0 +1,13 @@
+interface:
+  display_name: excel
+  short_description: 按固定规则筛选周度融资表，补充行业分类、负责人公式及映射页
+  default_prompt: 使用 $excel 按固定流程处理这份融资表，保留其他内容，文件名结尾加 v1
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
